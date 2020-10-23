@@ -18,7 +18,7 @@ Aquí podemos comprobar que la esfera, al tener propiedades físicas, es atraida
 
 - ### La esfera y el cubo tienen físicas:
 
-Aquí se ve lo anteriormente mencionado, pero esta vez con ambos cuerpo.
+Aquí se ve lo anteriormente mencionado, pero esta vez con ambos cuerpos.
 
 ![eje1c.gif](Images/eje1c.gif)
 
@@ -50,3 +50,9 @@ Lo que ocurre al no bloquear la rotación del cubo sobre el plano XZ es que, al 
 En cambio, al bloquear la rotación, al impactar de la misma manera la esfera, el cubo se queda estático en las posiciones X y Z iniciales.
 
 ![eje1g2.gif](Images/eje1g2.gif)
+
+## Sobre la escena que has trabajado ubica un cubo que represente un personaje que vas a mover. Se debe implementar un script que haga de CharacterController. Cuando el jugador pulse las teclas de flecha (o aswd) el jugador se moverá en la dirección que estos ejes indican.
+
+![eje2.gif](Images/eje2.gif)
+
+# [Para consultar el codigo](Scripts)
