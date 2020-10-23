@@ -4,15 +4,15 @@
 
 ### Ninguno de los objetos será físico:
 
-Para comprobar este punto con una mayor claridad, he elevado los objetos y he puesto en marcha la escena.
+Para comprobar este punto con una mayor claridad, elevé los objetos y puse en marcha la escena.
 
-Podemos comprobar que los cuerpos al no depender de físicas se quedan estáticos en su posición inicial.
+Podemos comprobar que los cuerpos, al no depender de físicas, se quedan estáticos en su posición inicial.
 
 ![eje1a.gif](Images/eje1a.gif)
 
 - ### La esfera tiene físicas, el cubo no:
 
-Aquí podemos comprobar que la esfera al tener propiedades físicas es atraida hacia abajo por la fuerza de la gravedad, solo siendo frenada por el terreno.
+Aquí podemos comprobar que la esfera, al tener propiedades físicas, es atraida hacia abajo por la fuerza de la gravedad, solo siendo frenada por el terreno.
 
 ![eje1b.gif](Images/eje1b.gif)
 
@@ -25,19 +25,19 @@ Aquí se ve lo anteriormente mencionado, pero esta vez con ambos cuerpo.
 
 - ### La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo:
 
-La nueva masa del objeto cubo no va a afectar a la aceleración de la velocidad, por lo que el cubo, seguirá bajando a la misma velocidad que antes.
+La nueva masa del objeto cubo no va a afectar a la aceleración de la velocidad, por lo que este, seguirá bajando a la misma velocidad que antes.
 
 ![eje1d.gif](Images/eje1d.gif)
 
 - ### La esfera tiene físicas y el cubo es de tipo IsTrigger:
 
-Lo que he intentado representar en esta escena es que, al no ser un cuerpo físico, la esfera es capaz de atravesar al cubo, pero la cualidad que tiene este último es la capaz de detectar que otro ha colisionado con él, dando así la posibilidad programar el evento que ocurrirá al realizar tal acción.
+Lo que he intentado representar en esta escena es que, al no ser un cuerpo físico, la esfera es capaz de atravesar al cubo, pero la cualidad que tiene este último es la capaz de detectar que otro objeto ha colisionado con él, dando así la posibilidad programar el evento que ocurrirá al realizar tal acción.
 
 ![eje1e.gif](Images/eje1e.gif)
 
 - ### La esfera tiene físicas, el cubo es de tipo IsTrigger y tiene físicas:
 
-Lo que ocurre aquí es que el cubo, al no tener programado ninguna reacción al colisionar con otro cuerpo, este por defecto los atraviesa.
+Lo que ocurre aquí es que el cubo, al no tener programado ninguna reacción al colisionar con otro cuerpo, por defecto los atraviesa.
 
 ![eje1f.gif](Images/eje1f.gif)
 
