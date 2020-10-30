@@ -53,6 +53,45 @@ En cambio, al bloquear la rotación, al impactar de la misma manera la esfera, e
 
 ## Sobre la escena que has trabajado ubica un cubo que represente un personaje que vas a mover. Se debe implementar un script que haga de CharacterController. Cuando el jugador pulse las teclas de flecha (o aswd) el jugador se moverá en la dirección que estos ejes indican.
 
-![eje2.gif](Images/eje2.gif)
+![eje2ab.gif](Images/eje2ab.gif)
+
+## Elegir otros ejes virtuales para el giro y girar al jugador sobre el eje OY (up).
+
+Los botones que seleccioné para rotar son Y y O.
+
+![eje2c.gif](Images/eje2c.gif)
+
+## Se deben incluir varias esferas sobre la escena. Cada vez que el objeto jugador colisione con una esfera se debe cambiar su color.
+
+Para poder atender a este ejercicio tuve que acceder al método OnCollisionEnter.
+
+![eje3-1.1.gif](Images/eje3-1.1.gif)
+
+## Si se trata de una esfera de tipo A, y se pulsa la barra espaciadora el jugador impulsa la esfera hacia fuera de él.
+
+Lo que hice fue acceder al método OnCollisionStay y cada vez que se pulsa la barra espaciadora, el cubo envia a la esfera en el eje x hacia donde se está moviendo.
+
+![eje3-1.2.gif](Images/eje3-1.2.gif)
+
+## Las esferas deben responder a la física. Se deben incluir cilindros que se alejen del jugador cuando esté próximo.
+
+Lo que hice para que los cilindros se desplazasen en dirección contraria al jugador fue, convertirlos en onTrigger y aumenté el tamaño de sus collaider, de manera que cuando detecta al jugador dentro de su área, son repelidos.
+
+![eje3-2.gif](Images/eje3-2.gif)
+
+## Ubicar un tercer objeto que sea capaz de detectar colisiones y que se mueva con las teclas: I, L, J, M.
+
+![eje3-3.gif](Images/eje3-3.gif)
+
+
+## Debes ubicar cubos que que aumentan de tamaño cuando se le acerca una esfera.
+
+La idea que tuve fue muy similar a lo de los cilindros, pero esta vez con el tamaño de los cubos.
+
+![eje3-4.1.gif](Images/eje3-4.1.gif)
+
+## Y que disminuye cuando se le acerca el jugador.
+
+![eje3-4.2.gif](Images/eje3-4.2.gif)
 
 # [Para consultar el codigo](Scripts)
